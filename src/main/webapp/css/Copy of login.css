@@ -23,7 +23,11 @@ body{
 	margin:auto;
 	text-align:left;
 }
-
+#logo{
+	background:url(../img/login/logo5.gif) no-repeat center top;
+	height:157px;
+	text-indent:-9999px;
+}
 #info{
 	position:relative;
 	top:30px;
@@ -51,31 +55,38 @@ body{
 }
 #submit{
 	position:relative;
-	top:90px;
-	left:125px;
+	top:98px;
+	left:140px;
 }
 #reset{
 	position:relative;
-	top:58px;
-	left:230px;
-}
-#imgcode{
-	position:relative;
-	top:-16px;
-	left:230px;
+	top:74px;
+	left:190px;
 }
 #username{
-	position:relative;
-	top:80px;
-	left:80px;
+	background:url(../img/login/form_uername.gif) no-repeat left top;
+	display:inline-block;
+	border:none;
+	width:153px;
+	height:33px;
+	line-height:33px;
+	padding-left:35px;
 }
 #password{
-	position:relative;
-	top:80px;
-	left:80px;
+	background:url(../img/login/form_password.gif) no-repeat 1px top;
+	display:inline-block;
+	border:none;
+	width:153px;
+	height:33px;
+	line-height:33px;
+	padding-left:35px;
 }
 #checkcode{
-	position:relative;
-	top:80px;
-	left:80px;
+	background:url(../img/login/form_checkcode.gif) no-repeat left top;
+	display:inline-block;
+	border:none;
+	width:65px;
+	height:33px;
+	line-height:33px;
+	padding-left:10px;
 }
